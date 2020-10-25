@@ -27,7 +27,7 @@ int smallest_multiple (){
         
         int i;
         	for (i = 2; i <= 20; i++){
-            		if (i % counter != 0){
+            		if (multiple % i != 0){
                 		true_false = 0;
                 		break;
             		}
