@@ -8,7 +8,7 @@ int sum_mult_3_and_5 (int max){
 	int i = 0;
 
 	for (i = 0; i <= max; i++){
-		if ( (i%3==0) && (i%5==0) )
+		if ( (i%3==0) || (i%5==0) )
 			sum+=i;
 	}
 	
